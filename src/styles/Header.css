@@ -1,0 +1,25 @@
+
+.header--container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo--and--nav {
+    display: flex;
+    gap: 50px;
+}
+
+
+.nav--links, .login--acess {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.nav--links li a, .login--acess li a {
+    text-decoration: none;
+    color: black;
+}
+
