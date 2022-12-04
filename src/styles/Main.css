@@ -33,3 +33,14 @@
     text-align: center;
     margin: 100px 5% 100px 0;
 }
+
+.container--box--beneficies {
+    display: flex;
+    gap: 20px;
+    background: linear-gradient(to bottom, transparent 45%, hsl(180, 66%, 49%) 45%, hsl(180, 66%, 49%) 50%, transparent 50%);
+}
+
+.box--beneficies {
+    background: #ffffff;
+    border-radius: 6px;
+}

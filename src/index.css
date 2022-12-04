@@ -11,3 +11,7 @@ html {
 header, main, footer {
   padding-left: 5%;
 }
+
+main {
+  background: linear-gradient(to bottom, #ffffff 72%, #EFF1F7 28%);
+}

@@ -1,7 +1,8 @@
 import working from './images/illustration-working.svg'
-import backgroundimg from './images/bg-shorten-desktop.svg'
 import './styles/Main.css'
-
+import recognition from './images/icon-brand-recognition.svg'
+import records from './images/icon-detailed-records.svg'
+import customizable from './images/icon-fully-customizable.svg'
 
 function Main() { 
     
@@ -45,10 +46,34 @@ function Main() {
       </section>
 
       <section className="beneficies--container">
-        
+
         <div className="advanced--statistics--box">
           <h1>Advanced Statistics</h1>
           <p>Track How Your links are performing across the web with our advanced statistics dashboard.</p>
+
+        </div>
+
+        <div className="container--box--beneficies">
+          <div className='box--beneficies'>
+            <img src={recognition} alt="brand recognition" />
+            <h2>Brand Recognition</h2>
+            <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
+
+          </div>
+            
+          <div className='box--beneficies'>
+            <img src={records} alt="brand recognition" />
+            <h2>Brand Recognition</h2>
+            <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
+
+          </div>
+
+          <div className='box--beneficies'>
+            <img src={customizable} alt="brand recognition" />
+            <h2>Brand Recognition</h2>
+            <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
+
+          </div>
 
         </div>
 
