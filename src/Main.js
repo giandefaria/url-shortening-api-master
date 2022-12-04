@@ -1,5 +1,7 @@
 import working from './images/illustration-working.svg'
+import backgroundimg from './images/bg-shorten-desktop.svg'
 import './styles/Main.css'
+
 
 function Main() { 
     
@@ -22,9 +24,26 @@ function Main() {
           <div className="main--image">
             <img src={working} alt="working"/>
 
-
           </div>
       </section>
+
+      <section>
+
+        <div className="shorten--container">
+
+          <form className="shorten--box" action="">
+            <input type="url" name="link--to--shorten" id="link--to--shorten" className='input--link'/>
+            <button type="submit" className='input--button'>Shorten it!</button>
+          </form>
+
+          <div className="inner--shorten">
+
+          </div>
+
+        </div>
+
+      </section>
+
     </main>
   );
 }

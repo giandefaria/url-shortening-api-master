@@ -4,9 +4,9 @@
 [X] adicionar o espaço entre o campo do logo e navegadores, e a div do login e sign up
 [X] criar um section grid com o título e a imagem do homem no computador
 [X] o título e subtitulo, e o botão get started devem estar envolvidos em uma div. E o rapaz no computador em outra div
-[ ] criar uma section que envolverá o box do input do encurtador até antes de 'Advanced Statistics'
-[ ] Adicionar o box que será colocado o input com a imagem de fundo
-[ ] adicionar o input e o botão de encurtar o link
+[X] criar uma section que envolverá o box do input do encurtador até antes de 'Advanced Statistics'
+[X] Adicionar o box que será colocado o input com a imagem de fundo
+[X] adicionar o input e o botão de encurtar o link
 [ ] adicionar uma div com a advanced statistics
 [ ] criar outra section, que terá dentro as três caixas isoladas em uma div
 [ ] adicionar uma outra section que contará com o título "boost your links today" e o botão "get started"

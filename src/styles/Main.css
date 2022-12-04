@@ -1,3 +1,5 @@
+
+
 .container--top--main {
     display: flex;
     overflow: hidden;
@@ -6,4 +8,23 @@
 
 .box--main--text, .main--image {
     width: 50%;
+}
+
+.shorten--box {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    padding: 60px;
+    width: 95%;
+    background: hsl(257, 27%, 26%);
+    background-image: url("/src/images/bg-shorten-desktop.svg");
+}
+
+.input--link {
+    width: 70%;
+}
+
+.input--button {
+    width: 20%;
 }
