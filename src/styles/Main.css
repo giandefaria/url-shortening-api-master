@@ -28,3 +28,8 @@
 .input--button {
     width: 20%;
 }
+
+.beneficies--container {
+    text-align: center;
+    margin: 100px 5% 100px 0;
+}

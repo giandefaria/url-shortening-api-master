@@ -44,6 +44,16 @@ function Main() {
 
       </section>
 
+      <section className="beneficies--container">
+        
+        <div className="advanced--statistics--box">
+          <h1>Advanced Statistics</h1>
+          <p>Track How Your links are performing across the web with our advanced statistics dashboard.</p>
+
+        </div>
+
+      </section>
+
     </main>
   );
 }

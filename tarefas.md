@@ -7,7 +7,7 @@
 [X] criar uma section que envolverá o box do input do encurtador até antes de 'Advanced Statistics'
 [X] Adicionar o box que será colocado o input com a imagem de fundo
 [X] adicionar o input e o botão de encurtar o link
-[ ] adicionar uma div com a advanced statistics
-[ ] criar outra section, que terá dentro as três caixas isoladas em uma div
+[X] adicionar uma div com a advanced statistics
+[ ] criar outra div, que terá dentro as três caixas isoladas em uma div
 [ ] adicionar uma outra section que contará com o título "boost your links today" e o botão "get started"
 [ ] Criar uma section no rodapé que terá 4 divs dentro. Uma para a logo, outra para a coluna features, outra para resources, outra para company, outra para a logo das redes sociais
