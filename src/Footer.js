@@ -2,9 +2,11 @@
 function footer() { 
     
     return (
-    <h1>
+    <footer>
+      <h1>
         footer div
-    </h1>
+      </h1>
+    </footer>
   );
 }
 

@@ -4,7 +4,10 @@
 }
 
 html {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
+header, main, footer {
+  padding-left: 5%;
+}

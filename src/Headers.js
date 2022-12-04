@@ -3,8 +3,8 @@ import './styles/Header.css'
 
 function test() { 
     return (
-        <section className='header--container'>
-            <div className="logo--and--nav">
+        <header className='header--container'>
+            <section className="logo--and--nav">
                 <div className="logo">
                     <img src={logo} alt="logo" />
                 </div>
@@ -15,17 +15,17 @@ function test() {
                         <li><a href="#">Resources</a></li>
                     </ul>
                 </div>
-            </div>
+            </section>
 
-            <div className="login--box">
+            <section className="login--box">
                 <ul className="login--acess">
                     <li><a href="#">Login</a></li>
                     <li><a href="#">Sign Up</a></li>
                 </ul>
 
-            </div>
+            </section>
 
-        </section>
+        </header>
   );
 }
 

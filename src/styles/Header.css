@@ -1,6 +1,6 @@
 
 .header--container {
-    margin-top: 40px;
+    margin: 40px 5% 40px 0;
     display: flex;
     justify-content: space-between;
 }
