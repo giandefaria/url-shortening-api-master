@@ -31,16 +31,47 @@
 
 .beneficies--container {
     text-align: center;
-    margin: 100px 5% 100px 0;
+    margin: 0 5% 100px 0;
+}
+
+.advanced--statistics--box {
+    padding: 110px 0 100px;
+
 }
 
 .container--box--beneficies {
     display: flex;
     gap: 20px;
-    background: linear-gradient(to bottom, transparent 45%, hsl(180, 66%, 49%) 45%, hsl(180, 66%, 49%) 50%, transparent 50%);
+    background: linear-gradient(to bottom, transparent 45%, hsl(180, 66%, 49%) 45%, hsl(180, 66%, 49%) 47%, transparent 47%);
+    height: 400px;
 }
 
 .box--beneficies {
     background: #ffffff;
     border-radius: 6px;
+    position: relative;
+    padding: 80px 20px 35px;
+    height: 35%;
+}
+
+.icon--design {
+    position: absolute;
+    background: hsl(257, 27%, 26%);
+    padding: 16px 18px;
+    border-radius: 12em;
+    top: -15%;
+    left: 10%;
+
+}
+
+.icon--desing img {
+    width: 40px;
+}
+
+.margin--5 {
+    margin-top: 5%;
+}
+
+.margin--10 {
+    margin-top: 10%;
 }

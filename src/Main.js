@@ -55,21 +55,27 @@ function Main() {
 
         <div className="container--box--beneficies">
           <div className='box--beneficies'>
-            <img src={recognition} alt="brand recognition" />
+            <div className="icon--design">
+              <img src={recognition} alt="brand recognition" />
+            </div>  
             <h2>Brand Recognition</h2>
             <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
 
           </div>
             
-          <div className='box--beneficies'>
-            <img src={records} alt="brand recognition" />
+          <div className="box--beneficies  margin--5">
+            <div className="icon--design">
+              <img src={records} alt="brand recognition" />
+            </div>  
             <h2>Brand Recognition</h2>
             <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
 
           </div>
 
-          <div className='box--beneficies'>
-            <img src={customizable} alt="brand recognition" />
+          <div className="box--beneficies margin--10">
+            <div className="icon--design">
+              <img src={customizable} alt="brand recognition" />
+            </div>  
             <h2>Brand Recognition</h2>
             <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
 
