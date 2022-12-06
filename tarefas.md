@@ -11,4 +11,8 @@
 [X] criar outra div, que terá dentro as três caixas isoladas em uma div
 [X] ajustar a imagem do ícone do box dos benefícios
 [X] adicionar uma outra section que contará com o título "boost your links today" e o botão "get started"
-[ ] Criar uma section no rodapé que terá 4 divs dentro. Uma para a logo, outra para a coluna features, outra para resources, outra para company, outra para a logo das redes sociais
+[x] Criar uma section no rodapé que terá 5 divs dentro. Uma para a logo, outra para a coluna features, outra para resources, outra para company, outra para a logo das redes sociais
+[X] aplicar display flex
+[X] adicionar a logo na primeira coluna
+[X] adicionar as outras colunas com o título em uma div, e o resto do conteúdo em outra, e usar display flex
+[x] adicionar os ícones na última coluna e aplicar display flex

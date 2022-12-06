@@ -8,7 +8,7 @@ html {
   margin: 0 auto;
 }
 
-header, footer {
+header {
   padding-left: 5%;
 }
 
@@ -19,3 +19,5 @@ header, footer {
 main {
   background: linear-gradient(to bottom, #ffffff 572px, #EFF1F7 28%);
 }
+
+

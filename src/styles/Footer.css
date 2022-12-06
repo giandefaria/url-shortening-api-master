@@ -1,0 +1,48 @@
+.container--footer {
+        background: hsl(260, 8%, 14%);
+        padding: 6% 5%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+   
+      
+}
+
+.container--footer li {
+    list-style: none;
+}
+
+.container--footer li a {
+    text-decoration: none;
+    color: white;
+    
+}    
+
+.footer--logo img {
+    filter: brightness(10);
+}
+
+.container--footer--links {
+    display: flex;
+    gap: 6vw;
+
+}
+
+.container--footer--links h2, p {
+    font-size: 16px;
+}
+
+.social--logos {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
