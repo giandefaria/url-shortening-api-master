@@ -8,8 +8,12 @@ html {
   margin: 0 auto;
 }
 
-header, main, footer {
+header, footer {
   padding-left: 5%;
+}
+
+.margin--left--5 {
+  margin-left: 5%;
 }
 
 main {

@@ -10,5 +10,5 @@
 [X] adicionar uma div com a advanced statistics
 [X] criar outra div, que terá dentro as três caixas isoladas em uma div
 [X] ajustar a imagem do ícone do box dos benefícios
-[ ] adicionar uma outra section que contará com o título "boost your links today" e o botão "get started"
+[X] adicionar uma outra section que contará com o título "boost your links today" e o botão "get started"
 [ ] Criar uma section no rodapé que terá 4 divs dentro. Uma para a logo, outra para a coluna features, outra para resources, outra para company, outra para a logo das redes sociais

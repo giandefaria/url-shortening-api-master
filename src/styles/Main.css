@@ -3,7 +3,7 @@
 .container--top--main {
     display: flex;
     overflow: hidden;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 5%;
 }
 
 .box--main--text, .main--image {
@@ -74,4 +74,17 @@
 
 .margin--10 {
     margin-top: 10%;
+}
+
+.boost--links--container {
+    height: 250px;
+    background: hsl(257, 27%, 26%);
+    background-image: url("/src/images/bg-boost-desktop.svg");
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }

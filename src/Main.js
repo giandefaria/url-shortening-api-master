@@ -30,7 +30,7 @@ function Main() {
 
       <section>
 
-        <div className="shorten--container">
+        <div className="shorten--container margin--left--5">
 
           <form className="shorten--box" action="">
             <input type="url" name="link--to--shorten" id="link--to--shorten" className='input--link'/>
@@ -53,7 +53,7 @@ function Main() {
 
         </div>
 
-        <div className="container--box--beneficies">
+        <div className="container--box--beneficies margin--left--5">
           <div className='box--beneficies'>
             <div className="icon--design">
               <img src={recognition} alt="brand recognition" />
@@ -84,6 +84,16 @@ function Main() {
         </div>
 
       </section>
+
+      <section className="boost--links--container">
+        
+         
+        <h1>Boost your links today</h1>
+        <button>Get Started</button>
+          
+
+   
+      </section>  
 
     </main>
   );
