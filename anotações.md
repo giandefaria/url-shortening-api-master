@@ -10,4 +10,6 @@ https://www.youtube.com/watch?v=oy4cbqE1_qc&ab_channel=Sujeitoprogramador
 
 * para adicionar uma imagem, devo importálas dentro do arquivo em que vou utilizá-la. Exemplo, no arquivo Headers.js, importei a imagem do logo com o comando {import logo from './images/logo.svg'}. Depois, no source da tag img, apenas adicionei o termo 'logo' entre chavves. "img src={logo}".
 
-* 
+* Para a API, uso o comando fetch para enviar a requisição e logo em seguida indico o .then, que evita a continuação do código sem aguardar a resposta da API. Somente após a resposta, converto ela em json. 
+Vídeo que assisti para fazer a requisição da API https://www.youtube.com/watch?v=mmCuNbChZ9I
+.then interprete como (o que vou executar depois, um função ou arrow function)

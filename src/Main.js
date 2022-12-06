@@ -3,6 +3,7 @@ import './styles/Main.css'
 import recognition from './images/icon-brand-recognition.svg'
 import records from './images/icon-detailed-records.svg'
 import customizable from './images/icon-fully-customizable.svg'
+import fetchApiData from './api'
 
 function Main() { 
     
@@ -34,7 +35,7 @@ function Main() {
 
           <form className="shorten--box" action="">
             <input type="url" name="link--to--shorten" id="link--to--shorten" className='input--link'/>
-            <button type="submit" className='input--button'>Shorten it!</button>
+            <button type="button" className='input--button' onClick={fetchApiData}>Shorten it!</button>
           </form>
 
           <div className="inner--shorten">

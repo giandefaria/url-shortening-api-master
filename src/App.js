@@ -2,6 +2,7 @@ import Headers from "./Headers";
 import Main from "./Main";
 import Footer from "./Footer";
 
+
 function App() {
   return (
     <div className="App">
@@ -11,5 +12,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

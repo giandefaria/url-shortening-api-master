@@ -16,3 +16,6 @@
 [X] adicionar a logo na primeira coluna
 [X] adicionar as outras colunas com o título em uma div, e o resto do conteúdo em outra, e usar display flex
 [x] adicionar os ícones na última coluna e aplicar display flex
+[X] adicionar a api no projeto
+[ ] pegar o link encurtado da api e jogar em uma variável
+[ ] adicionar no html uma nova caixa, através de uma function que retornará o texto html e a variável. 
