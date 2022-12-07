@@ -21,6 +21,24 @@
     background-image: url("/src/images/bg-shorten-desktop.svg");
 }
 
+.inner--shorten {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 11px 5% 0 0;
+}
+
+
+.shorten--link--and--copy {
+    display: flex;
+    gap: 20px;
+}
+
+.shorten--link--and--copy a, .shorten--link--and--copy button {
+    color: hsl(180, 66%, 49%);
+}
+
 .input--link {
     width: 70%;
 }

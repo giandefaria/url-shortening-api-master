@@ -38,9 +38,6 @@ function Main() {
             <button type="button" className='input--button' onClick={fetchApiData}>Shorten it!</button>
           </form>
 
-          <div className="inner--shorten">
-
-          </div>
 
         </div>
 
