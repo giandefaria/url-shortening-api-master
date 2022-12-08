@@ -4,11 +4,11 @@
     display: flex;
     overflow: hidden;
     margin: 0 0 20px 5%;
-    gap: 6vw;
+    gap: 4vw;
 }
 
 .box--main--text, .main--image {
-    width: 50%;
+    width: 53%;
 }
 
 .box--main--text {
@@ -70,7 +70,7 @@
 }
 
 .input--link {
-    width: 78%;
+    width: 82%;
     border-radius: 8px;
     border-style: none;
 }

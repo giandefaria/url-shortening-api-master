@@ -22,14 +22,14 @@
     text-decoration: none;
     color: hsl(257, 7%, 63%);
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #sign--up {
     font-family: 'Poppins', sans-serif;
     padding: 8px 18px;
     background: hsl(180, 66%, 49%);
-    font-size: 12px;
+    font-size: 14px;
     color: white;
     border-style: none;
     border-radius: 30px;

@@ -14,7 +14,7 @@
 
 .container--footer li a {
     text-decoration: none;
-    color: white;
+    color: hsl(257, 7%, 63%);
     
 }    
 
@@ -24,12 +24,16 @@
 
 .container--footer--links {
     display: flex;
-    gap: 6vw;
+    gap: 6vmax;
 
 }
 
 .container--footer--links h2, p {
     font-size: 16px;
+}
+
+.container--footer--links ul li {
+    margin-bottom: 10px;
 }
 
 .social--logos {
