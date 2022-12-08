@@ -4,10 +4,38 @@
     display: flex;
     overflow: hidden;
     margin: 0 0 20px 5%;
+    gap: 6vw;
 }
 
 .box--main--text, .main--image {
     width: 50%;
+}
+
+.box--main--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.main--text p {
+    color: hsl(257, 7%, 63%)
+}
+
+.main--button button {
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 38px;
+    background: hsl(180, 66%, 49%);
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
 }
 
 .shorten--box {
@@ -20,6 +48,7 @@
     background: hsl(257, 27%, 26%);
     background-image: url("/src/images/bg-shorten-desktop.svg");
 }
+
 
 .inner--shorten {
     background: white;
@@ -40,11 +69,19 @@
 }
 
 .input--link {
-    width: 70%;
+    width: 78%;
+    border-radius: 8px;
+    border-style: none;
 }
 
 .input--button {
-    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 38px;
+    background: hsl(180, 66%, 49%);
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    border-radius: 8px;
 }
 
 .beneficies--container {
@@ -53,8 +90,14 @@
 }
 
 .advanced--statistics--box {
-    padding: 110px 0 100px;
+    padding: 110px 240px;
+    text-align: center;
+    margin-left: 5%;
 
+}
+
+.advanced--statistics--box p {
+    color: hsl(257, 7%, 63%);
 }
 
 .container--box--beneficies {
@@ -104,5 +147,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 30px;
+}
+
+.boost--links--container button {
+    font-family: 'Poppins', sans-serif;
+    padding: 13px 38px;
+    background: hsl(180, 66%, 49%);
+    font-size: 15px;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
 }

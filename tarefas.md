@@ -20,4 +20,5 @@
 [X] pegar o link encurtado da api e jogar em uma variável
 [X] criei um document creatElement para adionar novos elementos ao clicar no botao de shorten. 
 [X] adicionar uma funcionalidade que copia o link encurtado ao clicar no botão copy
+[ ] adicionar a classname do visual ativo e não ativo
 [ ] trabalhar no visual da página

@@ -57,7 +57,7 @@ function Main() {
               <img src={recognition} alt="brand recognition" />
             </div>  
             <h2>Brand Recognition</h2>
-            <p>Bost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
+            <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content</p>
 
           </div>
             

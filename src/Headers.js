@@ -20,7 +20,7 @@ function test() {
             <section className="login--box">
                 <ul className="login--acess">
                     <li><a href="#">Login</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#" id="sign--up">Sign Up</a></li>
                 </ul>
 
             </section>

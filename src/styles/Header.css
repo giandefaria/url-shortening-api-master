@@ -20,6 +20,18 @@
 
 .nav--links li a, .login--acess li a {
     text-decoration: none;
-    color: black;
+    color: hsl(257, 7%, 63%);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#sign--up {
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 18px;
+    background: hsl(180, 66%, 49%);
+    font-size: 12px;
+    color: white;
+    border-style: none;
+    border-radius: 30px;
 }
 

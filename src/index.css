@@ -4,8 +4,10 @@
 }
 
 html {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
 }
 
 header {
