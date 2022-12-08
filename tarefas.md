@@ -19,5 +19,5 @@
 [X] adicionar a api no projeto
 [X] pegar o link encurtado da api e jogar em uma variável
 [X] criei um document creatElement para adionar novos elementos ao clicar no botao de shorten. 
-[ ] adicionar uma funcionalidade que copia o link encurtado ao clicar no botão copy
+[X] adicionar uma funcionalidade que copia o link encurtado ao clicar no botão copy
 [ ] trabalhar no visual da página

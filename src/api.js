@@ -1,5 +1,5 @@
 import { render } from "@testing-library/react";
-import { createElement } from "react";
+import { cloneElement, createElement } from "react";
 
 
 function fetchApiData () {
@@ -24,6 +24,8 @@ function fetchApiData () {
                 linkShortned.innerHTML = shortenLink;
                 let button = document.createElement("button");
                 button.innerHTML = "Copy";
+                button.className = "copy--button";
+                button.addEventListener('click', copyLink);
                 newElement.appendChild(linkInputed);
                 newElement.appendChild(childDiv);
                 childDiv.appendChild(linkShortned);
@@ -34,11 +36,35 @@ function fetchApiData () {
                    
                 let local = document.querySelector(".shorten--box");
                 local.after(newElement)
+
             })
     })
 
     
 }
+
+ function copyLink(event) {
+    const e = event;
+    console.log(e);
+    const linkCopy = e.path[1].childNodes[0].innerText
+    console.log(linkCopy);
+    navigator.clipboard.writeText(linkCopy);
+
+    const buttonCopy = e.path[0];
+    if (buttonCopy.innerHTML == "Copy") { 
+    
+        const textButton = document.querySelectorAll('.copy--button');
+        for (let i = 0; i < textButton.length; i++) {
+            textButton[i].innerHTML = "Copy"
+        }
+
+        buttonCopy.innerHTML = "Copied!";
+
+    }   else {
+            buttonCopy.innerHTML = "Copy";
+        }
+
+ };
 
 
 
