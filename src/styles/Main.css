@@ -200,3 +200,54 @@
     border-style: none;
     border-radius: 30px;
 }
+
+
+@media screen and (max-width: 730px) {
+
+    .container--top--main {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 auto 90px;
+    }
+
+    .box--main--text, .main--image {
+        width: 88%;
+    }    
+
+    .box--main--text {
+        align-items: center;
+    }
+
+    .main--text {
+        text-align: center;
+    }
+
+    .shorten--box {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .input--link {
+        width: auto;
+        height: 49px;
+    }
+
+    .advanced--statistics--box {
+        padding: 110px 0;
+    }
+
+    .container--box--beneficies {
+        flex-direction: column;
+        text-align: center;
+        background: linear-gradient(to right, transparent 50%, hsl(180, 66%, 49%) 50%, hsl(180, 66%, 49%) 53%, transparent 53%);
+    }
+
+    .icon--design {
+        left: 45%;
+    }
+
+    .margin--4 {
+        margin-top: 8%;
+    }
+}

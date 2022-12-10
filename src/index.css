@@ -26,4 +26,11 @@ footer {
   font-size: 14px;
 }
 
+@media screen and (max-width: 730px) {
+  
+  main {
+  
+    background: linear-gradient(to bottom, #ffffff 978px, #EFF1F7 28%);
+  }  
 
+}

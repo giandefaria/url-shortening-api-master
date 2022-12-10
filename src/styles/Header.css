@@ -35,3 +35,14 @@
     border-radius: 30px;
 }
 
+
+@media screen and (max-width: 730px) {
+    .login--box  {
+        display: none;
+    }
+
+    .nav--links {
+        display: none;
+    }
+
+}

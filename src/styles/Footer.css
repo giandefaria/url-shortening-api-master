@@ -50,3 +50,20 @@
 }
 
 
+@media screen and (max-width: 730px) { 
+    .container--footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 4vmax;
+    }
+
+    .container--footer--links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 4vmax;
+    }
+
+}
