@@ -1,4 +1,5 @@
 import logo from './images/logo.svg'
+import menu from './images/icon-menu.svg'
 import './styles/Header.css'
 
 function test() { 
@@ -24,6 +25,8 @@ function test() {
                 </ul>
 
             </section>
+
+            <img className='menu--icon' src={menu} alt="menu" />
 
         </header>
   );

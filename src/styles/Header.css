@@ -36,13 +36,78 @@
 }
 
 
-@media screen and (max-width: 730px) {
-    .login--box  {
+@media screen and (min-width: 731px) {
+
+    .menu--icon {
         display: none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .menu--icon {
+        display: block;
+        width: 30px;
+        height: 20px;
+        filter: opacity(0.8);
     }
 
-    .nav--links {
-        display: none;
+    .header--container {
+        position: relative;
     }
+
+    .nav--links, .login--acess {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+    }    
+
+    .nav--links li a, .login--acess li a {
+
+        font-size: 16px;
+        color: white;
+    }    
+
+    .nav--links {
+        position: absolute;
+        top: 120%;
+        text-align: center;
+        left: 0px;
+        margin-left: 5%;
+        background: hsl(257, 27%, 26%);
+        width: 95%;
+        padding-bottom: 45px;
+        padding-top: 25px;
+    }
+
+    .login--box  {
+        display: block;
+        position: absolute;
+        width: 95%;
+        top: 485%;
+        left: 0;
+        margin-left: 5%;
+        background: hsl(257, 27%, 26%);
+        border-radius: 10px;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .login--acess {
+
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, hsl(257, 7%, 63%) 0%, transparent 1%);
+    }
+
+    #sign--up {
+        padding: 14px 31vw;
+        font-size: 16px;
+    }
+
 
 }
