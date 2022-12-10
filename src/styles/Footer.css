@@ -1,6 +1,6 @@
 .container--footer {
         background: hsl(260, 8%, 14%);
-        padding: 6% 5%;
+        padding: 5% 5% 3%;
         color: white;
         display: flex;
         justify-content: space-between;

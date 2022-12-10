@@ -120,6 +120,11 @@
 
 }
 
+.advanced--statistics--box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 .advanced--statistics--box p {
     color: hsl(257, 7%, 63%);
 }
@@ -128,7 +133,6 @@
     display: flex;
     gap: 20px;
     background: linear-gradient(to bottom, transparent 45%, hsl(180, 66%, 49%) 45%, hsl(180, 66%, 49%) 47%, transparent 47%);
-    /*height: 400px;*/
     text-align: left;
 }
 
@@ -170,7 +174,7 @@
 }
 
 .boost--links--container {
-    height: 250px;
+    height: 215px;
     background: hsl(257, 27%, 26%);
     background-image: url("/src/images/bg-boost-desktop.svg");
     background-size: cover;
@@ -180,7 +184,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+}
+
+.boost--links--container h1 {
+    font-size: 2em;
 }
 
 .boost--links--container button {
