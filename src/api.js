@@ -53,15 +53,19 @@ function fetchApiData () {
     const buttonCopy = e.path[0];
     if (buttonCopy.innerHTML == "Copy") { 
     
-        const textButton = document.querySelectorAll('.copy--button');
-        for (let i = 0; i < textButton.length; i++) {
-            textButton[i].innerHTML = "Copy"
+        const innerButton = document.querySelectorAll('.copy--button');
+        for (let i = 0; i < innerButton.length; i++) {
+            innerButton[i].innerHTML = "Copy";
+            innerButton[i].style.background = "hsl(180, 66%, 49%)";
+            
         }
 
         buttonCopy.innerHTML = "Copied!";
+        buttonCopy.style.background = 'hsl(260, 8%, 14%)';
 
     }   else {
             buttonCopy.innerHTML = "Copy";
+            buttonCopy.style.background = null;
         }
 
  };

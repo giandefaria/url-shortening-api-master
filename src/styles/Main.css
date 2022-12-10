@@ -56,23 +56,46 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 11px 5% 0 0;
+    padding: 15px 25px;
+    border-radius: 4px;
 }
 
+.inner--shorten a {
+    text-decoration: none;
+    color: black;
+}
 
 .shorten--link--and--copy {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
-.shorten--link--and--copy a, .shorten--link--and--copy button {
+
+
+.shorten--link--and--copy a {
     color: hsl(180, 66%, 49%);
+    text-decoration: none;
+}
+
+.copy--button {
+    padding: 12px 0px;
+    width: 100px;
+    background: hsl(180, 66%, 49%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .input--link {
-    width: 82%;
+    width: 79%;
     border-radius: 8px;
     border-style: none;
+    padding-left: 30px;
 }
 
 .input--button {
