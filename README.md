@@ -2,7 +2,8 @@
 
 * Mobile preview
 
-![Design preview in mobile](./assets/design/mobile-design.jpg)
+![Design preview in mobile](./src/design/Url-shortenin-api-master-mobile1.png)![](./src/design/Url-shortenin-api-master-mobile2.png)
+
 
 
 ## Welcome! 👋
