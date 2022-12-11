@@ -2,7 +2,7 @@
 
 * Mobile preview
 
-![Design preview in mobile](./src/design/Url-shortenin-api-master-mobile1.png)![](./src/design/Url-shortenin-api-master-mobile2.png)
+![Design preview in mobile](./src/design/Url-shortenin-api-master-mobile1.png)
 
 
 
