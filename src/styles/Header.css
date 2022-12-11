@@ -57,13 +57,14 @@
     }
 
     .nav--links, .login--acess {
-        display: flex;
+        display: none;
         list-style: none;
         gap: 20px;
         flex-direction: column;
         align-items: center;
         border-radius: 10px;
-    }    
+    }
+    
 
     .nav--links li a, .login--acess li a {
 
@@ -84,7 +85,7 @@
     }
 
     .login--box  {
-        display: block;
+        display: none;
         position: absolute;
         width: 95%;
         top: 485%;
@@ -94,6 +95,14 @@
         border-radius: 10px;
         padding-top: 35px;
         padding-bottom: 45px;
+    }
+
+    .nav--links--display--mobile, .login--acess--display--mobile {
+        display: flex;
+    }
+
+    .login--box--display--mobile {
+        display: block;
     }
 
     .login--acess {

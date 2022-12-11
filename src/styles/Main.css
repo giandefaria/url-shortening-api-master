@@ -218,19 +218,55 @@
         align-items: center;
     }
 
+    .main--image img {
+        width: 140%;
+    }
+
     .main--text {
         text-align: center;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+        padding-bottom: 15px;
     }
 
     .shorten--box {
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
+        background-image: url("/src/images/bg-shorten-mobile.svg");
+        background-size: cover;
     }
 
     .input--link {
         width: auto;
         height: 49px;
+    }
+
+    .inner--shorten {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .inner--shorten a {
+        padding-bottom: 13px;
+        font-size: initial;
+        word-break: break-word;
+    }
+
+    .shorten--link--and--copy {
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        align-items: flex-start;
+        padding-top: 13px;
+        background: linear-gradient(to bottom, hsl(257, 7%, 63%) 0%, transparent 1%);
+    }
+
+    .copy--button {
+        width: 100%;
     }
 
     .advanced--statistics--box {
@@ -240,11 +276,12 @@
     .container--box--beneficies {
         flex-direction: column;
         text-align: center;
+        gap: 50px;
         background: linear-gradient(to right, transparent 50%, hsl(180, 66%, 49%) 50%, hsl(180, 66%, 49%) 53%, transparent 53%);
     }
 
     .icon--design {
-        left: 45%;
+        left: 40%;
     }
 
     .margin--4 {
