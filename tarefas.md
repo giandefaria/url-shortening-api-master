@@ -22,7 +22,7 @@
 - [X] adicionar uma funcionalidade que copia o link encurtado ao clicar no botão copy
 - [X] adicionar a classname do visual ativo e não ativo
 - [X] trabalhar no visual da página na versão desktop
-- [ ] Ajustar media queries
-- [ ] adicionar ícone de abrir o menu e recolher o menu no mobile
-- [ ] arrumar a linha do box dos benefícios que está saindo do alinhamento
+- [X] Ajustar media queries
+- [X] adicionar ícone de abrir o menu e recolher o menu no mobile
+- [X] arrumar a linha do box dos benefícios que está saindo do alinhamento
 - [ ] arrumar o readme
