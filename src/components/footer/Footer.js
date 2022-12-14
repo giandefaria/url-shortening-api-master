@@ -1,9 +1,9 @@
-import "./styles/Footer.css"
-import logo from './images/logo.svg'
-import facebook from "./images/icon-facebook.svg"
-import twitter from "./images/icon-twitter.svg"
-import pinterest from "./images/icon-pinterest.svg"
-import instagram from "./images/icon-instagram.svg"
+import "./Footer.css"
+import logo from '../../assets/styles/images/logo.svg'
+import facebook from "../../assets/styles/images/icon-facebook.svg"
+import twitter from "../../assets/styles/images/icon-twitter.svg"
+import pinterest from "../../assets/styles/images/icon-pinterest.svg"
+import instagram from "../../assets/styles/images/icon-instagram.svg"
 
 
 function footer() { 

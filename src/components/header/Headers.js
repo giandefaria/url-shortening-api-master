@@ -1,5 +1,5 @@
-import logo from '../../images/logo.svg'
-import menu from '../../images/icon-menu.svg'
+import logo from '../../assets/styles/images/logo.svg'
+import menu from '../../assets/styles/images/icon-menu.svg'
 import './Header.css'
 
 function test() { 

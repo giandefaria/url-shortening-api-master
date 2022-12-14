@@ -47,7 +47,7 @@
     border-radius: 8px;
     width: 95%;
     background: hsl(257, 27%, 26%);
-    background-image: url("/src/images/bg-shorten-desktop.svg");
+    background-image: url("/src/assets/styles/images/bg-shorten-desktop.svg");
 }
 
 
@@ -176,7 +176,7 @@
 .boost--links--container {
     height: 215px;
     background: hsl(257, 27%, 26%);
-    background-image: url("/src/images/bg-boost-desktop.svg");
+    background-image: url("/src/assets/styles/images/bg-boost-desktop.svg");
     background-size: cover;
     text-align: center;
     color: #ffffff;
@@ -236,7 +236,7 @@
         flex-direction: column;
         align-items: stretch;
         gap: 20px;
-        background-image: url("/src/images/bg-shorten-mobile.svg");
+        background-image: url("/src/assets/styles/images/bg-shorten-mobile.svg");
         background-size: cover;
     }
 

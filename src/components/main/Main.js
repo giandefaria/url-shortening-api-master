@@ -1,8 +1,8 @@
-import working from '../../images/illustration-working.svg'
+import working from '../../assets/styles/images/illustration-working.svg'
 import './Main.css'
-import recognition from '../../images/icon-brand-recognition.svg'
-import records from '../../images/icon-detailed-records.svg'
-import customizable from '../../images/icon-fully-customizable.svg'
+import recognition from '../../assets/styles/images/icon-brand-recognition.svg'
+import records from '../../assets/styles/images/icon-detailed-records.svg'
+import customizable from '../../assets/styles/images/icon-fully-customizable.svg'
 import fetchApiData from '../../api'
 
 function Main() { 
