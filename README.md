@@ -1,8 +1,8 @@
-![Design preview for the Interactive comments section coding challenge](./src/design/desktop-preview.jpg)
+![Design preview for the Interactive comments section coding challenge](./src/assets/design/desktop-preview.jpg)
 
 * Mobile preview
 
-![Design preview in mobile](./src/design/Url-shortenin-api-master-mobile1.png)
+![Design preview in mobile](../src/assets/design/Url-shortenin-api-master-mobile1.png)
 
 
 
