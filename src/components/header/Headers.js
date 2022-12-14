@@ -1,6 +1,6 @@
-import logo from './images/logo.svg'
-import menu from './images/icon-menu.svg'
-import './styles/Header.css'
+import logo from '../../images/logo.svg'
+import menu from '../../images/icon-menu.svg'
+import './Header.css'
 
 function test() { 
     return (
