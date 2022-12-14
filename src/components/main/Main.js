@@ -3,7 +3,7 @@ import './Main.css'
 import recognition from '../../assets/styles/images/icon-brand-recognition.svg'
 import records from '../../assets/styles/images/icon-detailed-records.svg'
 import customizable from '../../assets/styles/images/icon-fully-customizable.svg'
-import fetchApiData from '../../api'
+import fetchApiData from '../api/api'
 
 function Main() { 
     
