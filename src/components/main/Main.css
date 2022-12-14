@@ -99,6 +99,7 @@
 }
 
 .input--button {
+    cursor: pointer;
     font-family: 'Poppins', sans-serif;
     padding: 13px 38px;
     background: hsl(180, 66%, 49%);
