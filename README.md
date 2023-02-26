@@ -72,7 +72,7 @@ src="./src/assets/design/desktop-preview.jpg"
 <br />
 
 - [React](https://reactjs.org/)
-- [JavaScript]
+- [JavaScript](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - [CSS](https://restcountries.com/)
 
 
