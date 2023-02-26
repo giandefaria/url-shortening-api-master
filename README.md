@@ -28,6 +28,8 @@ O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://
 
 O objetivo é criar uma página integrada a uma API de encurtar links. O principal foco desse projeto é treinar a parte visual e a integração da página com uma API. Projeto desenvolvido com React.
 
+Para a utilização da funcionalidade de encurtar links, basta adicionar o endereço de qualquer site dentro do input localizado no meio da página. Após, basta clicar no botão 'Shorten it' e aguardar o retorno do link encurtado.
+
 
 # Visual do projeto <a name="id04"></a>
 
