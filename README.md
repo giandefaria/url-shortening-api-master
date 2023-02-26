@@ -17,8 +17,6 @@
 
 
 - [Proposta do projeto](#id01)
-- [Desafios](#id02)
-- [Arquivos do projeto](#id03)
 - [Visual do projeto](#id04)
 - [Feito com](#id05)
 - [Procedimento de instalação](#id06)
@@ -30,19 +28,6 @@ O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://
 
 O objetivo é criar uma página integrada a uma API de encurtar links. O principal foco desse projeto é treinar a parte visual e a integração da página com uma API. Projeto desenvolvido com React.
 
-
-# Desafios <a name="id02"> </a>
-
-Desafio foi criar uma página variável onde se alterasse apenas as informações do país que foi selecionado. Para isso, foi utilizado o react-router-dom e o hook useParams(), de modo que esse valor variável do link fosse capturado e feito uma requisição para a API retornar as informações daquele país, renderizando a página com os elementos HTML e mostrando do mapa a localização do país pela latitude e longitude informada pela API.
-
-# Arquivos do projeto <a name="id03"> </a>
-
-Os principais arquivos do projeto são: 
-* diretório pages => localização do arquivo da página inicial (main) e de informação dos países (country-info)
-* diretório components => estão localizadas metódos que serão utilizados no projeto: change-light-mode (para mudar tema da página);  crete-html-element-with-list (recebe a lista de países e monta no html); input-country-list (funções que montam a lista de países de acordo com o tipo de busca);
-* diretório assets => contém as imagens utilizadas no projeto
-* diretório interfaces => contem a interface utilizada no retorno da API, para habilitar o autocomplete e evitar que o desenvolvedor coloque informações que não são retornadas pela API.
-* diretório styles => contém os estilos utilizados globalmente no projeto
 
 # Visual do projeto <a name="id04"></a>
 
@@ -105,61 +90,4 @@ yarn install
 - Frontend Mentor - [@giandefaria](https://www.frontendmentor.io/profile/giandefaria)
 - Linkedim - [Gian de Faria](www.linkedin.com/in/gianfaria)
 - GitHub - [giandefaria](https://github.com/giandefaria)
-
-
-
-
-
-![Design preview for the Interactive comments section coding challenge](./src/assets/design/desktop-preview.jpg)
-
-* Mobile preview
-
-![Design preview in mobile](./src/assets/design/Url-shortenin-api-master-mobile1.png)
-
-
-
-## Welcome! 👋
-
-Challenge do site frontendmentor.io. https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9
-
-**O objetivo é criar uuma página integrada a uma API de encurtar links. O principal foco desse projeto é treinar a parte visual e a integração da página com uma API. Projeto desenvolvido com React.**
-
-# Teconologias utilizadas
- * HTML
- * CSS
- * JS
- * React
-
-**no diretório, a página foi divida em três partes (header, main, footer) que são renderizadas dentro do arquivo app.js. Criei o arquivo api.js onde constam os comandos e manipulação de elementos relacionados à API.**
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
