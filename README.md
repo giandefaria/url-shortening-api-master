@@ -28,7 +28,7 @@
 
 O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt
 
-A proposta desse projeto consiste em montar uma página que possui uma lista de todos os países, contendo as informações de cada país, além de ser possível realizar a busca de um país por nome ou por região. Foi incrementado no projeto o modo noturno, um mapa que mostra a localização do país no mapa mundi, além de um ícone do wikipedia para ter mais informações sobre o país.
+O objetivo é criar uma página integrada a uma API de encurtar links. O principal foco desse projeto é treinar a parte visual e a integração da página com uma API. Projeto desenvolvido com React.
 
 
 # Desafios <a name="id02"> </a>
